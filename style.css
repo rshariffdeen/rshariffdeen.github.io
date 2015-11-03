@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Dancing Script'), local('DancingScript'), url(https://themes.googleusercontent.com/static/fonts/dancingscript/v4/DK0eTGXiZjN6yA8zAEyM2VhlQWQpSCpzb2Peu3I-Q34.woff) format('woff');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nunito-Regular'), url(https://themes.googleusercontent.com/static/fonts/nunito/v5/0rdItLTcOd8TSMl72RUU5w.woff) format('woff');
+}
+@font-face {
+  font-family: 'Quattrocento Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Quattrocento Sans'), local('QuattrocentoSans'), url(https://themes.googleusercontent.com/static/fonts/quattrocentosans/v6/efd6FGWWGX5Z3ztwLBrG9b2aU247V0zTzydO4RoO9Ok.woff) format('woff');
+}
