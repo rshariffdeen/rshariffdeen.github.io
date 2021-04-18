@@ -16,3 +16,20 @@
   font-weight: 400;
   src: local('Quattrocento Sans'), local('QuattrocentoSans'), url(https://themes.googleusercontent.com/static/fonts/quattrocentosans/v6/efd6FGWWGX5Z3ztwLBrG9b2aU247V0zTzydO4RoO9Ok.woff) format('woff');
 }
+
+.container {
+  max-width: 960px;
+}
+
+.jumbotron {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.content {
+  margin-top: 15px;
+}
+
+.nounderline {
+  text-decoration: none !important
+}
