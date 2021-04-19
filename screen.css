@@ -152,7 +152,7 @@ article h1 {
 .timeline .element {
   margin: 0;
   padding: 0 0 10px 20px;
-  border-left: 4px solid #f1f1f1;
+  border-left: 4px solid lightgray;
   -webkit-transition: 1s ease;
   -moz-transition: 1s ease;
   -o-transition: 1s ease;
@@ -174,7 +174,7 @@ article h1 {
 .timeline .element::before {
   content: " ";
   color: white;
-  background: white;
+  background: darkgrey;
   display: inline-block;
   margin-left: -29px;
   position: absolute;
