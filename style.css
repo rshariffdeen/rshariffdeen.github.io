@@ -33,3 +33,8 @@
 .nounderline {
   text-decoration: none !important
 }
+.btn-xs{
+  padding: .01rem .2rem;
+  font-size: .75rem;
+  border-radius: .2rem;
+}
