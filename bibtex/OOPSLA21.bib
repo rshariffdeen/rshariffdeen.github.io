@@ -1,0 +1,34 @@
+@article{10.1145/3485538,
+author = {Gao, Xiang and Radhakrishna, Arjun and Soares, Gustavo and Shariffdeen, Ridwan and Gulwani, Sumit and Roychoudhury, Abhik},
+title = {APIfix: Output-Oriented Program Synthesis for Combating Breaking Changes in Libraries},
+year = {2021},
+issue_date = {October 2021},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {5},
+number = {OOPSLA},
+url = {https://doi.org/10.1145/3485538},
+doi = {10.1145/3485538},
+abstract = {Use of third-party libraries is extremely common in application software. The libraries
+evolve to accommodate new features or mitigate security vulnerabilities, thereby breaking
+the Application Programming Interface(API) used by the software. Such breaking changes
+in the libraries may discourage client code from using the new library versions thereby
+keeping the application vulnerable and not up-to-date. We propose a novel output-oriented
+program synthesis algorithm to automate API usage adaptations via program transformation.
+Our aim is not only to rely on the few example human adaptations of the clients from
+the old library version to the new library version, since this can lead to over-fitting
+transformation rules. Instead, we also rely on example usages of the new updated library
+in clients, which provide valuable context for synthesizing and applying the transformation
+rules. Our tool APIFix provides an automated mechanism to transform application code
+using the old library versions to code using the new library versions - thereby achieving
+automated API usage adaptation to fix the effect of breaking changes. Our evaluation
+shows that the transformation rules inferred by APIFix achieve 98.7% precision and
+91.5% recall. By comparing our approach to state-of-the-art program synthesis approaches,
+we show that our approach significantly reduces over-fitting while synthesizing transformation
+rules for API usage adaptations.},
+journal = {Proc. ACM Program. Lang.},
+month = oct,
+articleno = {161},
+numpages = {27},
+keywords = {Breaking changes, API usage adaptation, Programming by example, Program transformation, Program synthesis}
+}
