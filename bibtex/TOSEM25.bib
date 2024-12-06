@@ -1,0 +1,15 @@
+@article{10.1145/3705310,
+author = {Zhang, Yuntong and Costea, Andreea and Shariffdeen, Ridwan and McCall, Davin and Roychoudhury, Abhik},
+title = {EffFix: Efficient and Effective Repair of Pointer Manipulating Programs},
+year = {2024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {1049-331X},
+url = {https://doi.org/10.1145/3705310},
+doi = {10.1145/3705310},
+abstract = {This work introduces EffFix, a tool that applies a novel static analysis-driven Automated Program Repair (APR) technique for fixing memory errors. APR tools typically rely on a given test-suite to guide the repair process. Apart from the need to provide test oracles, this reliance is also one of the main contributors to the over-fitting problem. Static analysis based APR techniques bypass these issues only to introduce new ones, such as soundness, scalability, and generalizability. This work demonstrates how we can overcome these challenges and achieve sound memory bug repair at scale by leveraging static analysis (specifically Incorrectness Separation Logic – ISL) to guide repair. This is the first repair approach to use ISL. Our key insight is that the abstract domain used by static analysis to detect the bugs also contains key information to derive correct patches. Our proposed approach learns what a desirable patch is by inspecting how close a patch is to fixing the bug based on the feedback from ISL based static analysis (specifically the Pulse analyzer), and turning this information into a distribution of probabilities over context free grammars. This approach to repair is generic in that its learning strategy allows for finding patches without relying on the commonly used patch templates. Furthermore, to achieve efficient program repair, instead of focusing on heuristics for reducing the search space of patches, we make repair scalable by creating classes of equivalent patches according to the effect they have on the symbolic heap. We then conduct candidate patch validation only once per patch equivalence class. This allows EffFix to efficiently discover quality repairs even in the presence of a large pool of patch candidates. Experimental evaluation of fixing real world memory errors in medium to large scale subjects like OpenSSL, Linux Kernel, swoole, shows the efficiency and effectiveness of EffFix — in terms of automatically producing repairs from large search spaces. In particular, EffFix has a fix ratio of 66\% for memory leak bugs and 83\% for Null Pointer Dereferences for the considered dataset.},
+note = {Just Accepted},
+journal = {ACM Trans. Softw. Eng. Methodol.},
+month = nov,
+keywords = {Automated Program Repair, Incorrectness Separation Logic, Probabilistic Context Free Grammars}
+}

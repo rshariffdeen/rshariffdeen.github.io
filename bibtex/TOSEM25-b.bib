@@ -1,0 +1,15 @@
+@article{10.1145/3707454,
+author = {Shariffdeen, Ridwan and Timperley, Christopher S. and Noller, Yannic and Le Goues, Claire and Roychoudhury, Abhik},
+title = {Vulnerability Repair via Concolic Execution and Code Mutations},
+year = {2024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {1049-331X},
+url = {https://doi.org/10.1145/3707454},
+doi = {10.1145/3707454},
+abstract = {Security vulnerabilities detected via techniques like greybox fuzzing are often fixed with a significant time lag. This increases the exposure of the software to vulnerabilities. Automated fixing of vulnerabilities where a tool can generate fix suggestions is thus of value. In this work, we present such a tool, called CrashRepair, to automatically generate fix suggestions using concolic execution, specification inference, and search techniques. Our approach avoids generating fix suggestions merely at the crash location because such fixes often disable the manifestation of the error instead of fixing the error. Instead, based on sanitizer-guided concolic execution, we infer desired constraints at specific program locations and then opportunistically search for code mutations that help respect those constraints. Our technique only requires a single detected vulnerability or exploit as input; it does not require any user-provided properties. Evaluation results on a wide variety of CVEs in the VulnLoc benchmark, show CrashRepair achieves greater efficacy than state-of-the-art vulnerability repair tools like Senx. The repairs suggested come in the form of a ranked set of patches at different locations, and we show that on most occasions, the desired fix is among the top-3 fixes reported by CrashRepair.},
+note = {Just Accepted},
+journal = {ACM Trans. Softw. Eng. Methodol.},
+month = dec,
+keywords = {Automated Program Repair, Vulnerability Repair, Semantic Program Analysis, Concolic Execution}
+}
